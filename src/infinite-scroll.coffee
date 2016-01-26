@@ -203,5 +203,5 @@ mod.directive 'infiniteScroll', ['$rootScope', '$window', '$interval', 'THROTTLE
     checkInterval = $interval (->
       if immediateCheck
         handler()
-    ), 0
+    ), 1000
 ]

@@ -1,4 +1,4 @@
-/* ng-infinite-scroll - v1.2.0 - 2015-12-02 */
+/* ng-infinite-scroll - v1.2.1 - 2016-01-26 */
 var mod;
 
 mod = angular.module('infinite-scroll', []);
@@ -183,7 +183,7 @@ mod.directive('infiniteScroll', [
           if (immediateCheck) {
             return handler();
           }
-        }), 0);
+        }), 1000);
       }
     };
   }
