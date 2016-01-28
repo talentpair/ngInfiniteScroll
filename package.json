@@ -1,10 +1,10 @@
 {
-  "name": "ng-infinite-scroll",
+  "name": "tp-infinite-scroll",
   "version": "1.2.4",
-  "description": "Infinite scrolling for AngularJS",
+  "description": "Fork of Infinite scrolling for AngularJS",
   "repository": {
     "type": "git",
-    "url": "git://github.com/sroze/ngInfiniteScroll.git"
+    "url": "git://github.com/talentpair/tpInfiniteScroll.git"
   },
   "main": "build/ng-infinite-scroll.js",
   "browser": "build/ng-infinite-scroll.js",
